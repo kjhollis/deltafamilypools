@@ -11,7 +11,7 @@
   body { font-family: Arial, Helvetica, sans-serif; color:#222; line-height:1.55; background:#fff; }
   .callbar { position:sticky; top:0; z-index:1000; background:#0b5a78; color:#fff; text-align:center; padding:10px 12px; font-size:17px; }
   .callbar a { color:#ffd34d; font-weight:bold; text-decoration:none; font-size:19px; white-space:nowrap; }
-  header { color:#fff; padding:110px 20px 96px; text-align:center; background:linear-gradient(rgba(4,43,58,.78),rgba(4,43,58,.78)), #0b5a78; }
+  header { color:#fff; padding:110px 20px 96px; text-align:center; background:linear-gradient(rgba(4,43,58,.78),rgba(4,43,58,.78)), url('hero.jpg') center/cover no-repeat, #0b5a78; }
   header h1, header p { text-shadow:0 1px 6px rgba(0,0,0,.6); }
   header h1 { font-size:34px; margin-bottom:12px; }
   header p { font-size:18px; max-width:640px; margin:0 auto 24px; }
@@ -26,7 +26,10 @@
   ul.plain { margin-left:20px; margin-bottom:16px; }
   .faq p { margin-bottom:14px; }
   .faq strong { display:block; margin-bottom:2px; }
-  .cta { color:#fff; text-align:center; padding:64px 20px; margin-top:40px; background:linear-gradient(rgba(4,43,58,.82),rgba(4,43,58,.82)), #0b5a78; }
+  .photo { max-width:960px; margin:8px auto 0; padding:0 20px; }
+  .photo img { width:100%; border-radius:8px; display:block; }
+  .photo figcaption { font-size:13px; color:#555; text-align:center; padding:8px 4px 0; }
+  .cta { color:#fff; text-align:center; padding:64px 20px; margin-top:40px; background:linear-gradient(rgba(4,43,58,.82),rgba(4,43,58,.82)), url('hero.jpg') center/cover no-repeat, #0b5a78; }
   .cta h2 { color:#fff; }
   .cta p { margin-bottom:18px; }
   footer { background:#111; color:#bbb; padding:28px 20px; font-size:13px; }
@@ -36,6 +39,12 @@
 </style>
 </head>
 <body>
+<!--
+Photos: hero.jpg and pool.jpg by Max Vakhtbovych via Pexels
+(https://www.pexels.com/photo/a-modern-house-with-swimming-pool-8134745/ and
+https://www.pexels.com/photo/a-modern-house-with-swimming-pool-under-the-blue-sky-8134750/),
+free to use under the Pexels licence. Decorative stock imagery only - not Delta Family Pools' work.
+-->
 
 <div class="callbar">Pool problem? Call now: <a href="tel:+19254209001">(925) 420-9001</a></div>
 
@@ -80,6 +89,11 @@
   </ol>
 </section>
 
+<figure class="photo">
+  <img src="pool.jpg" alt="Backyard swimming pool with clear blue water on a sunny day">
+  <figcaption>A clear, swim-ready pool is the goal — regular weekly cleaning, balanced water and healthy equipment keep it that way.</figcaption>
+</figure>
+
 <section>
   <h2>Areas Served</h2>
   <p>Brentwood, Oakley, Discovery Bay and surrounding East Contra Costa County communities, including:</p>
@@ -114,6 +128,7 @@
   <div class="wrap">
     <p><strong>Disclosure:</strong> This website is an independent lead-generation and referral service. It is independently owned and operated and is not affiliated with, endorsed by, or a continuation of any former business that previously operated under this name or domain. When you call the number on this page, you are connected with a local independent pool service professional. We do not perform pool work ourselves. Independent professionals are solely responsible for their own pricing, licensing, insurance and workmanship. Please verify a professional's licence and insurance before hiring.</p>
     <p><a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms.html">Terms &amp; Conditions</a></p>
+    <p>Photos by Max Vakhtbovych via Pexels.</p>
     <p>&copy; 2026 DeltaFamilyPools.com — All rights reserved.</p>
   </div>
 </footer>
